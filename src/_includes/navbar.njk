@@ -3,10 +3,12 @@
         <nav>
             <ul class="menu-items">
                 <li class="home">
-                    <a href="">home</a>
+                    <a href="/">home</a>
                 </li>
+{% for blog in collections.blogs %}
                 <li class="popular">
-                    <a href="/blog/">popular</a>
+                    <a href="{{ blog.url }}">popular</a>
+{% endfor %}
                 </li>
                 <li class="about-us">
                     <a href="/about/about us.htm">about us</a>
