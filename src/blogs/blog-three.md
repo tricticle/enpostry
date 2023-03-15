@@ -1,6 +1,6 @@
 ---
 title: Introducing ChatGPT 4
-image: /assets/gptv4.png
+image: /assets/gpt4.png
 imageAlt: chatgpt v.4
 description: The Latest Advancement in Language Modeling
 username: tricticle
