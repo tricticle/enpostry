@@ -18,7 +18,7 @@ body{
 
 
 .nav-bar{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     max-height: 40px;
     min-width: 100%;
     display: flex;
@@ -76,11 +76,10 @@ body{
 /*content design*/
 
 .container{
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .container a{
     text-decoration: none;
@@ -143,7 +142,7 @@ body{
 
 .article-content{
     font-family: 'Poppins', sans-serif;
-    padding: 15px;
+    padding: 25px;
     letter-spacing: 1px;
     font-weight: 10;
 }
