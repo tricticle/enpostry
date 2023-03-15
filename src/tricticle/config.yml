@@ -1,0 +1,18 @@
+backend:
+name: git-gateway
+branch: main
+media_folder: "public/assets"
+public_folder: "/assets"
+collections:
+  - name: "blogs" # Used in routes, e.g., /admin/collections/blog
+    label: "Blogs" # Used in the UI
+    folder: "src/blogs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "UserName", name: "username", widget: "string"}
+      - {label: "IMAGEAlt", name: "imageAlt", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

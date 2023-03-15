@@ -8,11 +8,23 @@
      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css">
     <script src="script.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>{{ title }}</title>
 </head>
 <body>
 {% include 'navbar.njk' %}
 {{ content | safe }}
 {% include 'footer.njk' %}
-</head>
-<body>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>
