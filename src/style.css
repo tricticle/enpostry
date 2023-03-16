@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: dark light;
 }
 body{
     max-height: 100svh;
@@ -161,5 +162,5 @@ body{
     text-decoration: none;
     font-size: clamp(10px,3.5vw,3px);
     color: rgb(0, 0, 0);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
