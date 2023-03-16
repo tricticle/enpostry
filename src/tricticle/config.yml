@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "public/assets"
+media_folder: "src/assets"
 public_folder: "/assets"
 collections:
   - name: "blogs" # Used in routes, e.g., /admin/collections/blog
