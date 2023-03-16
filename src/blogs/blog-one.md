@@ -1,9 +1,9 @@
 ---
 title: android root
-image: /assets/android-root.png
-imageAlt: root android
 description: easy steps to root your android phone
+image: /assets/20230316_104138_0000.png
 username: tricticle
+imageAlt: root android
 ---
 
 ## How to Root Your Android Phone: A Step-by-Step Guide
