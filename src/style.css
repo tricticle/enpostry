@@ -53,9 +53,10 @@ body{
 }
 .menu-items i{
   font-size: 10px;
+  color: var(--purple);
 }
 .menu-items a{
-    padding: 5px;
+    padding: 3px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: clamp(7px,2.5vw,3px);
