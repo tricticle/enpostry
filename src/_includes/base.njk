@@ -11,6 +11,14 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="https://kit.fontawesome.com/1538dfe099.js" crossorigin="anonymous"></script>
     <title>{{ title }}</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".toggle").click(function(){
+    $(".nav-items").toggle();
+  });
+});
+</script>
 </head>
 <body>
 {% include 'navbar.njk' %}

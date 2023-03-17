@@ -15,7 +15,7 @@ body{
     min-width: 100%;
 }
 
-/*navbar design*/
+/*navbar design
 
 
 .nav-bar{
@@ -41,7 +41,7 @@ body{
     font-size: clamp(15px,1.5vw,2rem);
     color: var(--text-color);
 }
-.nav-bar .menu-items{
+.nav-bar .nav-items{
     padding-right: 20px;
     list-style: none;
     display: flex;
@@ -51,11 +51,11 @@ body{
     justify-content: space-evenly;
     gap: 20px;
 }
-.menu-items i{
+.nav-items i{
   font-size: 10px;
   color: var(--purple);
 }
-.menu-items a{
+.nav-items a{
     padding: 3px;
     text-decoration: none;
     text-transform: uppercase;
@@ -64,7 +64,7 @@ body{
     transition: var(--delay);
     font-family: 'Poppins', sans-serif;
 }
-.menu-items a:hover{
+.nav-items a:hover{
     border-radius: 3px;
     font-size: clamp(7px,3.5vw,3px);
     letter-spacing: 3px;
@@ -72,8 +72,77 @@ body{
     color: var(--purple);
     font-family: 'Source Sans Pro', sans-serif;
 }
+*/
 
+.nav-bar{
+    display: grid;
+    justify-items: center;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-bar .toggle{
+    color: var(--purple);
+}
+.toggle:hover{
+    color: var(--text-color);
+}
+.logo{
+    padding: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(15px,1.5vw,2rem);
+}
+.nav-bar nav{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+.nav-items{
+    display: none;
+    justify-items: center;
+}
+.nav-items ul{
+    display: grid;
+    list-style: none;
+    padding: 3px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: clamp(9px,2.5vw,3px);
+}
+.nav-items a:hover{
+    border-radius: 3px;
+    font-size: clamp(7px,3.5vw,3px);
+    transition: var(--delay);
+    color: var(--purple);
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
+.nav-items li i{
+    font-size: 7px;
+}
+.nav-items li:hover{
+    font-size: clamp(10px,2.5vw,3px);
+    transition: var(--delay);
+    letter-spacing: 3px;
+}
+.nav-items li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    gap: 3px;
+    transition: var(--delay);
+    text-transform: uppercase;
+}
 
 /*content design*/
 
@@ -134,7 +203,7 @@ body{
 /*mobile design*/
 
 @media screen and (max-width:700px){
-
+    
 }
 
 
