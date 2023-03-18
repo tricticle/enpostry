@@ -57,7 +57,7 @@ Finally, think about how you can turn your passions and skills into a career or 
 
 As you reflect on each of these four elements, consider how they intersect and overlap. Your ikigai is likely to be found at the intersection of what you love, what you're good at, what the world needs, and what you can be paid for. Take some time to think deeply about each of these elements and how they relate to your life.
 
-###The Benefits of Ikigai
+### The Benefits of Ikigai
 Discovering your ikigai can have a profound impact on your overall sense of happiness and fulfillment. By aligning your passions, skills, and contributions with the needs of society and finding ways to monetize them, you can create a sense of purpose and meaning in your life. Some potential benefits of discovering your ikigai include:
 
 Improved mental and emotional wellbeing
