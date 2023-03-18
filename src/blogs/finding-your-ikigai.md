@@ -7,8 +7,6 @@ imageAlt: 生き甲斐
 ---
 # Finding Your Ikigai: The Japanese Concept of Purpose and Happiness
 
-![Ikigai Concept](https://i.imgur.com/4J3qSS4.jpg)
-
 Have you ever felt like you're going through the motions in life without a clear sense of purpose? Do you find yourself wondering what your true passions are and how you can make a meaningful impact in the world? If so, you're not alone. Many people struggle with these questions and feel unfulfilled in their daily lives.
 
 The Japanese concept of ikigai offers a framework for finding your purpose and achieving a sense of happiness and fulfillment. In this blog post, we'll explore the origins of ikigai, its key concepts, and how you can apply them in your own life.
