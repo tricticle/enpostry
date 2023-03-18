@@ -15,95 +15,43 @@ body{
     min-width: 100%;
 }
 
-/*navbar design
+/*navbar design*/
 
 
 .nav-bar{
-    margin: 5px;
-    border-radius: 7px;
-    padding-bottom: 5px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--text-color);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.nav-bar .logo{
-    padding-left: 20px;
-    min-height: 30px;
-    min-width: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    text-transform:unset;
-    font-size: clamp(15px,1.5vw,2rem);
-    color: var(--text-color);
-}
-.nav-bar .nav-items{
-    padding-right: 20px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-}
-.nav-items i{
-  font-size: 10px;
-  color: var(--purple);
-}
-.nav-items a{
-    padding: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: clamp(7px,2.5vw,3px);
-    color: var(--text-color);
-    transition: var(--delay);
-    font-family: 'Poppins', sans-serif;
-}
-.nav-items a:hover{
-    border-radius: 3px;
-    font-size: clamp(7px,3.5vw,3px);
-    letter-spacing: 3px;
-    transition: var(--delay);
-    color: var(--purple);
-    font-family: 'Source Sans Pro', sans-serif;
-}
-*/
-
-.nav-bar{
-    display: grid;
-    justify-items: center;
     padding: 7px;
     border-radius: 7px;
     margin: 5px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-bar .toggle{
+    display: none;
     color: var(--purple);
 }
 .toggle:hover{
+    display: none;
     color: var(--text-color);
 }
 .logo{
+    display: inline-block;
     padding: 2px;
     font-family: 'Poppins', sans-serif;
     font-size: clamp(15px,1.5vw,2rem);
+    color: var(--text-color);
 }
-.nav-bar nav{
-    display: grid;
-    justify-items: center;
-    align-content: center;
-}
+
 .nav-items{
-    display: none;
+    display: flex;
     justify-items: center;
 }
 .nav-items ul{
-    display: grid;
+    display: flex;
     list-style: none;
     padding: 3px;
     font-size: 15px;
@@ -203,7 +151,80 @@ body{
 /*mobile design*/
 
 @media screen and (max-width:700px){
+    .nav-bar{
+        display: grid;
+        justify-items: center;
+        padding: 7px;
+        border-radius: 7px;
+        margin: 5px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+    }
+    .nav-bar .toggle{
+        display: block;
+        color: var(--purple);
+    }
+    .toggle:hover{
+        display: block;
+        color: var(--text-color);
+    }
+    .logo{
+        display: block;
+        padding: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-size: clamp(15px,1.5vw,2rem);
+        color: var(--text-color);
+    }
+    .nav-bar nav{
+        display: grid;
+        justify-items: center;
+        align-content: center;
+    }
+    .nav-items{
+        display: none;
+        justify-items: center;
+    }
+    .nav-items ul{
+        display: grid;
+        list-style: none;
+        padding: 3px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .nav-items a{
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: clamp(9px,2.5vw,3px);
+    }
+    .nav-items a:hover{
+        border-radius: 3px;
+        font-size: clamp(7px,3.5vw,3px);
+        transition: var(--delay);
+        color: var(--purple);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
     
+    .nav-items li i{
+        font-size: 7px;
+    }
+    .nav-items li:hover{
+        font-size: clamp(10px,2.5vw,3px);
+        transition: var(--delay);
+        letter-spacing: 3px;
+    }
+    .nav-items li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        gap: 3px;
+        transition: var(--delay);
+        text-transform: uppercase;
+    }
 }
 
 
