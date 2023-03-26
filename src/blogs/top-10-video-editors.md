@@ -1,7 +1,7 @@
 ---
 title: Top 10 Video Editors
 description: Top 10 Video Editors and Their Pros and Cons
-image: /assets/dall·e-2023-03-10-20.57.18-colours-dissolve.png
+image: /assets/20230327_004028_0000.png
 username: tricticle
 imageAlt: video editors
 ---
