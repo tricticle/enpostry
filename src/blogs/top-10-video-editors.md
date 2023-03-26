@@ -5,9 +5,7 @@ image: /assets/dall·e-2023-03-10-20.57.18-colours-dissolve.png
 username: tricticle
 imageAlt: video editors
 ---
-![A cute kitten](assets/gpt4.png)
-
-# Top 10 Video Editors and Their Pros and Cons
+Top 10 Video Editors and Their Pros and Cons
 
 Video editing has become an essential skill for content creators, businesses, and individuals. There are many video editors available, each with their pros and cons. In this post, we will be looking at the top 10 video editors and their pros and cons.
 
