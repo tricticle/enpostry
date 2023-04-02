@@ -1,5 +1,5 @@
 ---
-title: android root
+title: android root | steps
 description: easy steps to root your android phone
 image: /assets/20230316_104138_0000.png
 username: tricticle
