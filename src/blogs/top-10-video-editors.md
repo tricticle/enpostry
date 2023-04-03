@@ -1,7 +1,7 @@
 ---
 title: Top 10 Video Editors
 description: Top 10 Video Editors and Their Pros and Cons
-image: /assets/20230327_004028_0000.png
+image: https://assets-static.invideo.io/images/large/Android_Editor_2022_1_8d9e9a3568.png
 username: tricticle
 imageAlt: video editors
 ---
