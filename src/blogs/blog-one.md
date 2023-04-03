@@ -1,7 +1,7 @@
 ---
 title: android root | steps
 description: easy steps to root your android phone
-image: /assets/20230316_104138_0000.png
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFT6f2F5KrdHNy5YZ6ai6Upugb_RwNnL6F2Q&usqp=CAU
 username: tricticle
 imageAlt: root android
 ---
