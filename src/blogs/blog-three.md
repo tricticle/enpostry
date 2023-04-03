@@ -1,9 +1,9 @@
 ---
 title: Introducing ChatGPT 4
-image: /assets/gpt4.png
-imageAlt: chatgpt v.4
 description: The Latest Advancement in Language Modeling
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELCUvD01MIHJ5v8qPLbeJGGQAVoeds5NQDw&usqp=CAU
 username: tricticle
+imageAlt: chatgpt v.4
 ---
 
 ## Introducing ChatGPT 4: The Latest Advancement in Language Modeling
