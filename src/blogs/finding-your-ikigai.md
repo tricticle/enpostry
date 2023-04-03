@@ -5,6 +5,8 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGiPgFCJ4dRqYvXNqQA
 username: tricticle
 imageAlt: 生き甲斐
 ---
+![Ikigai](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAG87jRFDdk1166epL1iNKZyJA3PBLtCC0w&usqp=CAU "生き甲斐")
+
 # Finding Your Ikigai: The Japanese Concept of Purpose and Happiness
 
 Have you ever felt like you're going through the motions in life without a clear sense of purpose? Do you find yourself wondering what your true passions are and how you can make a meaningful impact in the world? If so, you're not alone. Many people struggle with these questions and feel unfulfilled in their daily lives.
@@ -58,6 +60,7 @@ Finally, think about how you can turn your passions and skills into a career or 
 As you reflect on each of these four elements, consider how they intersect and overlap. Your ikigai is likely to be found at the intersection of what you love, what you're good at, what the world needs, and what you can be paid for. Take some time to think deeply about each of these elements and how they relate to your life.
 
 ### The Benefits of Ikigai
+
 Discovering your ikigai can have a profound impact on your overall sense of happiness and fulfillment. By aligning your passions, skills, and contributions with the needs of society and finding ways to monetize them, you can create a sense of purpose and meaning in your life. Some potential benefits of discovering your ikigai include:
 
 Improved mental and emotional wellbeing
