@@ -1,7 +1,7 @@
 ---
 title: API | Application Programming Interface
 description: A Guide for Beginners
-image: https://i.morioh.com/2019/12/18/0fd211b189e2.jpg
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5_rypt2LSRevXw4cyjZizy4QT2Lqs496HA&usqp=CAU
 username: tricticle
 imageAlt: API
 ---
