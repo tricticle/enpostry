@@ -5,7 +5,7 @@ image: https://pbs.twimg.com/media/FsjGGi-XgAAaQJl?format=jpg&name=large
 username: tricticle
 imageAlt: genshin impact 3.6 update
 ---
-!(https://pbs.twimg.com/media/FsjGGi-XgAAaQJl?format=jpg&name=large)
+![genshin impact](https://pbs.twimg.com/media/FsjGGi-XgAAaQJl?format=jpg&name=large)
 > # Genshin impact New version 3.6 update
 >
 > Genshin Impact is one of the most popular open-world action RPGs in the world, with millions of players exploring the vast and beautiful world of Teyvat. The game is constantly updated with new content, features and events, keeping players engaged and entertained. The latest update, Version 3.6, is set to launch on April 12, and it promises to be one of the biggest and most exciting updates yet. Here are some of the highlights of what you can expect from Genshin Impact Version 3.6.
