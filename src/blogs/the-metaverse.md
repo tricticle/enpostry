@@ -1,7 +1,7 @@
 ---
 title: The Metaverse
 description: A Fully Immersive Virtual World
-image: /assets/20230316_103053_0000.png
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfNY5-slgBmsQPqcSbKyvjd8qyjZQtTivwhg&usqp=CAU
 username: tricticle
 imageAlt: "Metaverse "
 ---
