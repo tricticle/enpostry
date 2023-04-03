@@ -5,11 +5,12 @@ image: https://assets-static.invideo.io/images/large/Android_Editor_2022_1_8d9e9
 username: tricticle
 imageAlt: video editors
 ---
+
+![video editors](https://onehourprofessor.b-cdn.net/wp-content/uploads/2021/11/image-5.png)
 ## Top 10 Video Editors and Their Pros and Cons
 
 Video editing has become an essential skill for content creators, businesses, and individuals. There are many video editors available, each with their pros and cons. In this post, we will be looking at the top 10 video editors and their pros and cons.
 
-![video editors](https://onehourprofessor.b-cdn.net/wp-content/uploads/2021/11/image-5.png)
 
 ## 1. Adobe Premiere Pro
 

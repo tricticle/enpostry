@@ -5,7 +5,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJq_MePGN4EfpyoIgiC
 username: tricticle
 imageAlt: programing languages
 ---
-
+!(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJq_MePGN4EfpyoIgiCZIWyZq00NGDRCdYvA&usqp=CAU)
 ## Top 10 Programming Languages
 As a software developer, it's important to keep up with the latest trends and technologies in the industry. One of the most important aspects of software development is choosing the right programming language for your project. Here are the top 10 programming languages that every developer should know:
 

@@ -5,7 +5,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELCUvD01MIHJ5v8qPL
 username: tricticle
 imageAlt: chatgpt v.4
 ---
-
+!(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELCUvD01MIHJ5v8qPLbeJGGQAVoeds5NQDw&usqp=CAU)
 ## Introducing ChatGPT 4: The Latest Advancement in Language Modeling
 As one of the largest language models available today, ChatGPT has been making waves in the world of natural language processing (NLP) since its release. And now, with the release of ChatGPT 4, the model has reached new heights of sophistication and capability.
 
