@@ -1,9 +1,9 @@
 ---
 title: TOP 10 programing languages
-image: /assets/top10.png
-imageAlt: programing languages
 description: top 10 programming languages that every developer should know
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJq_MePGN4EfpyoIgiCZIWyZq00NGDRCdYvA&usqp=CAU
 username: tricticle
+imageAlt: programing languages
 ---
 
 ## Top 10 Programming Languages
