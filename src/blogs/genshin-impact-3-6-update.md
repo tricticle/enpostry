@@ -1,7 +1,7 @@
 ---
 title: Genshin Impact 3.6 Update
 description: Genshin Impact New version 3.6 Update
-image: /assets/fsjggi-xgaaaqjl.jpg
+image: https://pbs.twimg.com/media/FsjGGi-XgAAaQJl?format=jpg&name=large
 username: tricticle
 imageAlt: genshin impact 3.6 update
 ---
