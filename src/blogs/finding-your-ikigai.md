@@ -1,7 +1,7 @@
 ---
 title: Finding Your IKIGAI
 description: The Japanese Concept of Purpose and Happiness
-image: /assets/20230319_023752_0000.png
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGiPgFCJ4dRqYvXNqQAqrXvc7c4Y7Ai2Ef_A&usqp=CAU
 username: tricticle
 imageAlt: 生き甲斐
 ---
