@@ -5,8 +5,8 @@
 }
 :root{
  --delay:0.5s ease;
- --purple:#c2a4ff;
- --text-color:#6c6c6c;
+ --purple:#000000;
+ --text-color:#ffffff;
 }
 *{
     margin: 0;
@@ -16,6 +16,10 @@
 body{
     max-height: 100svh;
     min-width: 100%;
+    background-image: url(https://c0.wallpaperflare.com/preview/895/748/1009/sunset-sun-pink-purple.jpg);
+    background-size: cover;
+    animation: move 69s infinite;
+    position: relative;
 }
 
 /*navbar design*/
@@ -241,6 +245,57 @@ body{
 
 
 
+@keyframes move{  
+    0% {
+      background-position: 36% 42%;
+      background-size: 200%;
+    }
+    
+    20% {
+      background-position: 30% 35%;
+      background-size: 300%;
+    }
+    
+    20.0001% { /* -- View 2 -- */
+      background-position: 60% 85%;
+      background-size: 400%;
+    }
+    
+    40% {
+      background-position: 49% 81%;
+      background-size: 350%;
+    }
+    
+    40.0001% { /* -- View 3 -- */
+      background-position: 80% 42%;
+      background-size: 300%;
+    }
+    
+    60% {
+      background-position: 84% 33%;
+      background-size: 250%;
+    }
+    
+    60.0001% { /* -- View 4 -- */
+      background-position: 0% 0%;
+      background-size: 300%;
+    }
+    
+    80% {
+      background-position: 15% 4%;
+      background-size: 350%;
+    }
+    
+    80.0001% { /* -- View 5 -- */
+      background-position: 80% 10%;
+      background-size: 400%;
+    }
+    
+    100% {
+      background-position: 72% 14%;
+      background-size: 300%;
+    }
+  }
 .article-content{
     font-family: 'tricticle', Poppins;
     padding: 25px;
