@@ -6,8 +6,60 @@
 :root{
  --delay:0.5s ease;
  --purple:#c2a4ff;
- --text-color:#6c6c6c;
+ --text-color:#000000;
+ --anicolor:#ffffff;
 }
+@keyframes move{  
+    0% {
+      background-position: 36% 42%;
+      background-size: 200%;
+    }
+    
+    20% {
+      background-position: 30% 35%;
+      background-size: 300%;
+    }
+    
+    20.0001% { /* -- View 2 -- */
+      background-position: 60% 85%;
+      background-size: 400%;
+    }
+    
+    40% {
+      background-position: 49% 81%;
+      background-size: 350%;
+    }
+    
+    40.0001% { /* -- View 3 -- */
+      background-position: 80% 42%;
+      background-size: 300%;
+    }
+    
+    60% {
+      background-position: 84% 33%;
+      background-size: 250%;
+    }
+    
+    60.0001% { /* -- View 4 -- */
+      background-position: 0% 0%;
+      background-size: 300%;
+    }
+    
+    80% {
+      background-position: 15% 4%;
+      background-size: 350%;
+    }
+    
+    80.0001% { /* -- View 5 -- */
+      background-position: 80% 10%;
+      background-size: 400%;
+    }
+    
+    100% {
+      background-position: 72% 14%;
+      background-size: 300%;
+    }
+  }
 *{
     margin: 0;
     padding: 0;
@@ -22,8 +74,7 @@ body{
 
 
 .nav-bar{
-    background: hsla(0, 0%, 100%, 0.1);
-    backdrop-filter: blur(7px);
+    background-image: url(assets/umx5towv97ra1.jpg);
     display: flex;
     border-radius: 7px;
     margin: 5px;
@@ -33,6 +84,7 @@ body{
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    animation: move 30s infinite;
 }
 .nav-bar .toggle{
     display: none;
@@ -47,7 +99,7 @@ body{
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: clamp(15px,1.5vw,2rem);
-    color: var(--text-color);
+    color: var(--anicolor);
 }
 
 .nav-items{
@@ -64,7 +116,7 @@ body{
 }
 .nav-items a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--anicolor);
     font-size: clamp(9px,2.5vw,3px);
 }
 .nav-items a:hover{
@@ -158,8 +210,6 @@ body{
 
 @media screen and (max-width:700px){
     .nav-bar{
-        background: hsla(0, 0%, 100%, 0.1);
-        backdrop-filter: blur(7px);
         display: grid;
         justify-items: center;
         padding: 7px;
@@ -174,14 +224,14 @@ body{
     }
     .toggle:hover{
         display: block;
-        color: var(--text-color);
+        color: var(--anicolor);
     }
     .logo{
         display: block;
         padding: 2px;
         font-family: 'Poppins', sans-serif;
         font-size: clamp(15px,1.5vw,2rem);
-        color: var(--text-color);
+        color: var(--anicolor);
     }
     .nav-bar nav{
         display: grid;
@@ -201,7 +251,7 @@ body{
     }
     .nav-items a{
         text-decoration: none;
-        color: var(--text-color);
+        color: var(--anicolor);
         font-size: clamp(9px,2.5vw,3px);
     }
     .nav-items a:hover{
