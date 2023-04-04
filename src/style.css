@@ -3,11 +3,13 @@
     font-family: 'tricticle';
     src: url(Product\ Sans\ Bold.ttf);
 }
+
 :root{
  --delay:0.5s ease;
  --purple:#c2a4ff;
  --text-color:#000000;
  --anicolor:#ffffff;
+ padding-top: 50px;
 }
 @keyframes move{  
     0% {
