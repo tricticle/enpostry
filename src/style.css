@@ -76,7 +76,16 @@ body::-webkit-scrollbar{
 
 /*navbar design*/
 
-
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.135);
+    backdrop-filter: blur(70px);
+    border-radius: 7px;
+  }
 .nav-bar{
     background-image: url(assets/umx5towv97ra1.jpg);
     display: flex;
@@ -99,11 +108,15 @@ body::-webkit-scrollbar{
     color: var(--text-color);
 }
 .logo{
+    position: relative;
     display: inline-block;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(15px,1.5vw,2rem);
+    font-size: clamp(15px,3.5vw,1rem);
     color: var(--anicolor);
+    font-weight: 700;
+    inset: 0;
+    letter-spacing: 1px;
 }
 
 .nav-items{
@@ -234,7 +247,7 @@ body::-webkit-scrollbar{
         display: block;
         padding: 2px;
         font-family: 'Poppins', sans-serif;
-        font-size: clamp(15px,1.5vw,2rem);
+        font-size: clamp(15px,3.5vw,3rem);
         color: var(--anicolor);
     }
     .nav-bar nav{
