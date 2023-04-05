@@ -57,4 +57,4 @@ Advantages of Using Prompts on Midjourney AI
 
 - Use Multiple Prompts: To avoid overfitting and increase the generalizability of your AI models, it's a good idea to use multiple prompts for your text generation. This will help to ensure that your models can generate text in a range of different contexts.
 
--Monitor Performance: It's important to monitor the performance of your AI models when using prompts. This will help you to identify any issues or areas for improvement, and ensure that your models are generating accurate and useful text.
+- Monitor Performance: It's important to monitor the performance of your AI models when using prompts. This will help you to identify any issues or areas for improvement, and ensure that your models are generating accurate and useful text.
