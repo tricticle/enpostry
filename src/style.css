@@ -334,19 +334,23 @@ body::-webkit-scrollbar{
 }
 
 
-/* bottom*/
 .about-page{
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    color: var(--text-color);
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  color: var(--text-color);
 }
-.about-page a{
-    padding: 20px;
-    text-decoration: none;
-    font-size: clamp(10px,3.5vw,3px);
-    color:var(--text-color);
-    letter-spacing: 1px;
+.about-page p{
+  font-size: 10px;
+  text-decoration: none;
+  padding: 7px;
+}
+.about-page p a{
+  text-decoration: none;
+}
+.about-page p a:hover{
+  text-decoration: underline;
+  transition: var(--tran);
 }
