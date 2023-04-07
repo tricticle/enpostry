@@ -38,7 +38,9 @@ If we apply linear diffusion to this image for different values of $t$, we get t
 
 ![ayaka from Genshin Impact ](https://pbs.twimg.com/media/FtFTP1yWwAEFfln?format=jpg&name=900x900 "ayaka from Genshin Impact ")
 
-iThat Art Created or Posted by<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ayaka from Genshin Impact. 💗<br><br>Source:<a href="https://t.co/FXUJTtAypN">https://t.co/FXUJTtAypN</a> <a href="https://t.co/ozzrLcnLsJ">pic.twitter.com/ozzrLcnLsJ</a></p>&mdash; 𝑫𝒂𝒊𝒍𝒚 𝑾𝒂𝒊𝒇𝒖𝒔 (@Waifu_elle) <a href="https://twitter.com/Waifu_elle/status/1644186964399095809?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#### That Art Created or Posted by :
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ayaka from Genshin Impact. 💗<br><br>Source:<a href="https://t.co/FXUJTtAypN">https://t.co/FXUJTtAypN</a> <a href="https://t.co/ozzrLcnLsJ">pic.twitter.com/ozzrLcnLsJ</a></p>&mdash; 𝑫𝒂𝒊𝒍𝒚 𝑾𝒂𝒊𝒇𝒖𝒔 (@Waifu_elle) <a href="https://twitter.com/Waifu_elle/status/1644186964399095809?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 As we can see, linear diffusion smooths out the noise in the background, but also blurs out the edges and details in the foreground. Moreover, linear diffusion introduces some artifacts in the image, such as overshooting (the bright halo around the dark object) and staircasing (the blocky appearance of the gradient regions).
 
