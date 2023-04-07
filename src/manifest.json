@@ -5,14 +5,12 @@
 "icons": [{
     "src":"assets/logo-144x144.png",
     "sizes":"144x144",
-    "type":"icon/png",
-    "purpose":"maskable any"
+    "type":"image/png"
 },
 {
     "src":"assets/logo-512x512.png",
     "sizes":"512x512",
-    "type":"icon/png",
-    "purpose":"maskable any"
+    "type":"image/png"
 }],
 "theme_color": "#000000",
 "background_color": "#FFFFFF",
