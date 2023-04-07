@@ -32,7 +32,7 @@ where $u$ is the image intensity function, $t$ is the time parameter, and $\Delt
 
 Linear diffusion has some advantages, such as being easy to implement and fast to compute. However, it also has some drawbacks, such as being prone to blurring edges and creating artifacts. For example, consider the following image:
 
-![ayaka from Genshin Impact ](https://rerollcdn.com/GENSHIN/Characters/1/Ayaka.png "ayaka from Genshin Impact ")
+![ayaka from Genshin Impact ](https://th.bing.com/th/id/OIP.ObhZO5iFTv7ZAjqnR5goFgHaIl?pid=ImgDet&rs=1 "ayaka from Genshin Impact ")
 
 If we apply linear diffusion to this image for different values of $t$, we get the following results:
 
