@@ -1,0 +1,21 @@
+{
+"name": "tricticle",
+"short_name": "tricticle",
+"start_url":"/?home=true",
+"icons": [{
+    "src":"assets/logo-144x144.png",
+    "sizes":"144x144",
+    "type":"icon/png",
+    "purpose":"maskable any"
+},
+{
+    "src":"assets/logo-512x512.png",
+    "sizes":"512x512",
+    "type":"icon/png",
+    "purpose":"maskable any"
+}],
+"theme_color": "#000000",
+"background_color": "#FFFFFF",
+"display": "fullscreen",
+"orientation": "portrait"
+}

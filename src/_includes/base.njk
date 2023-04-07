@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <link rel="manifest" href="manifest.json">
   <meta name="description" content="blog posts.">
   <meta property="og:url" content="https://tricticle.tech">
   <meta property="og:title" content="tricticle | blog posts.">
@@ -63,6 +63,11 @@ $(document).ready(function(){
       }
     });
   }
+</script>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/service-worker.js')
+}
 </script>
 </body>
 </html>
