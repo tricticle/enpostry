@@ -1,0 +1,33 @@
+<div id="top">
+		<nav>tricticle.tech HTML Site Map</nav>
+		<h3>
+<a href="http://tricticle.tech">tricticle.tech Homepage</a>
+</h3></div>
+	<div id="cont">
+		<ul class="level-0">
+
+            <li class="lhead">https:/ </li>
+            <li><ul class="level-1">
+
+            <li class="lhead">/ </li>
+            <li><ul class="level-2">
+
+            <li class="lhead">tricticle.tech/  <span class="lcount">1 pages</span></li>
+            
+<li class="lpage last-page"><a href="https://tricticle.tech/" title="tricticle | blog posts.">tricticle | blog posts.</a></li><li><ul class="level-3">
+
+            <li class="lhead">about/  <span class="lcount">2 pages</span></li>
+            
+<li class="lpage"><a href="https://tricticle.tech/about/about%20us.htm" title="about us">about us</a></li>
+<li class="lpage last-page"><a href="https://tricticle.tech/about/privacy%20policy.htm" title="https://tricticle.tech/about/privacy%20policy.htm">https://tricticle.tech/about/privacy%20policy.htm</a></li>
+</ul><ul class="level-3">
+
+            <li class="lhead">blogs/ </li>
+			{% for blog in collections.blogs %}
+            <li><ul class="level-4">
+
+            <li class="lhead">{{blog.data.title}}  <span class="lcount">1 pages</span></li>
+            
+<li class="lpage last-page"><a href="{{ blog.url }}" title="{{blog.data.title}}">{{blog.data.title}}</a></li>
+</ul>
+{% endfor %}
