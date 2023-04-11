@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/Product\ Sans\ Bold.ttf');
     eleventyConfig.addPassthroughCopy('./src/manifest.json');
     eleventyConfig.addPassthroughCopy('./src/service-worker.js');
+    eleventyConfig.addPassthroughCopy('./src/sitemap.xml');
     return {
         dir:{
             input: "src",
