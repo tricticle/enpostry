@@ -84,12 +84,12 @@ body::-webkit-scrollbar{
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.135);
+    background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(70px);
-    border-radius: 7px;
+    border-radius:7px;
   }
 .nav-bar{
-    background-image: url(assets/umx5towv97ra1.jpg);
+    background-image: url(assets/move.jpg);
     display: flex;
     border-radius: 7px;
     margin: 7px;
@@ -100,14 +100,6 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: space-between;
     animation: move 30s infinite;
-}
-.nav-bar .toggle{
-    display: none;
-    color: var(--purple);
-}
-.toggle:hover{
-    display: none;
-    color: var(--text-color);
 }
 .logo{
     position: relative;
@@ -125,13 +117,6 @@ body::-webkit-scrollbar{
     padding: 10px;
     display: flex;
     justify-items: center;
-}
-.nav-items ul{
-    display: flex;
-    list-style: none;
-    padding: 3px;
-    font-size: 15px;
-    text-decoration: none;
 }
 .nav-items a{
     text-decoration: none;
@@ -163,7 +148,6 @@ body::-webkit-scrollbar{
     padding: 5px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    gap: 3px;
     transition: var(--delay);
     text-transform: uppercase;
 }
@@ -237,14 +221,6 @@ body::-webkit-scrollbar{
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
         justify-content: center;
     }
-    .nav-bar .toggle{
-        display: block;
-        color: var(--purple);
-    }
-    .toggle:hover{
-        display: block;
-        color: var(--anicolor);
-    }
     .logo{
         display: block;
         padding: 2px;
@@ -261,20 +237,11 @@ body::-webkit-scrollbar{
         display: none;
         justify-items: center;
     }
-    .nav-items ul{
-        display: grid;
-        list-style: none;
-        padding: 3px;
-        font-size: 15px;
-        text-decoration: none;
-    }
     .nav-items a{
-        text-decoration: none;
         color: var(--anicolor);
         font-size: clamp(9px,2.5vw,3px);
     }
     .nav-items a:hover{
-        border-radius: 3px;
         font-size: clamp(7px,3.5vw,3px);
         transition: var(--delay);
         color: var(--purple);
@@ -295,10 +262,8 @@ body::-webkit-scrollbar{
         justify-content: center;
         align-content: space-around;
         flex-wrap: nowrap;
-        padding: 5px;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 1px;
-        gap: 3px;
         transition: var(--delay);
         text-transform: uppercase;
     }
