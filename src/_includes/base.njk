@@ -40,16 +40,6 @@ $(document).ready(function(){
 {% include 'navbar.njk' %}
 {{ content | safe }}
 {% include 'footer.njk' %}
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PXS7Y52P2D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PXS7Y52P2D');
-</script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -66,9 +56,5 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.register('/service-worker.js')
 }
 </script>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVPDZQS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
