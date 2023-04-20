@@ -61,7 +61,10 @@ Another advanced technique is to use iterative prompt engineering, which involve
   {"role": "system", "content": "You are ChatGPT, a creative writing assistant."},
   {"role": "user", "content": "Write a blog post about advanced techniques with prompts on Midjourney AI."},
   {"role": "assistant", "content": "Sure! Here's an outline for the blog post: [outline]"},
-  {"role": "user", "content": "Great! Now, expand on each section of the outline and provide examples and actionable insights."}, {"role": "assistant", "content": "Sure! Here's a more detailed version of the blog post, based on the outline: \[detailed content]"}, {"role": "user", "content": "I like the content, but can you make it more engaging and add some storytelling elements?"}, {"role": "assistant", "content": "Certainly! Here's a revised version with storytelling elements: \[revised content]"} 
+  {"role": "user", "content": "Great! Now, expand on each section of the outline and provide examples and actionable insights."}, 
+  {"role": "assistant", "content": "Sure! Here's a more detailed version of the blog post, based on the outline: \[detailed content]"}, 
+  {"role": "user", "content": "I like the content, but can you make it more engaging and add some storytelling elements?"}, 
+  {"role": "assistant", "content": "Certainly! Here's a revised version with storytelling elements: \[revised content]"} 
 ]
  
 
