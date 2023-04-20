@@ -15,7 +15,7 @@ Prompts are a powerful tool for generating text using Midjourney AI's language m
 
 System messages are messages that are used to guide the behavior of the model throughout the conversation. They are usually placed at the beginning of the conversation and help to set the context for the subsequent prompts. System messages can be used to gently instruct the model on how to behave during the conversation, such as specifying the role of the assistant or providing guidelines for generating the text. For example:
 
-```json
+```
 [
   {"role": "system", "content": "You are ChatGPT, a helpful assistant."},
   {"role": "user", "content": "Can you help me write a blog post about advanced techniques with prompts on Midjourney AI?"}
@@ -61,12 +61,10 @@ Another advanced technique is to use iterative prompt engineering, which involve
   {"role": "system", "content": "You are ChatGPT, a creative writing assistant."},
   {"role": "user", "content": "Write a blog post about advanced techniques with prompts on Midjourney AI."},
   {"role": "assistant", "content": "Sure! Here's an outline for the blog post: [outline]"},
-  {"role": "user", "content": "Great! Now, expand on each section of the outline and provide
-```
+  {"role": "user", "content": "Great! Now, expand on each section of the outline and provide examples and actionable insights."}, {"role": "assistant", "content": "Sure! Here's a more detailed version of the blog post, based on the outline: \[detailed content]"}, {"role": "user", "content": "I like the content, but can you make it more engaging and add some storytelling elements?"}, {"role": "assistant", "content": "Certainly! Here's a revised version with storytelling elements: \[revised content]"} 
+]
+ 
 
-examples and actionable insights."}, {"role": "assistant", "content": "Sure! Here's a more detailed version of the blog post, based on the outline: \[detailed content]"}, {"role": "user", "content": "I like the content, but can you make it more engaging and add some storytelling elements?"}, {"role": "assistant", "content": "Certainly! Here's a revised version with storytelling elements: \[revised content]"} ]
-
-```
 [
   {"role": "system", "content": "You are ChatGPT, a creative writing assistant."},
   {"role": "user", "content": "Write a blog post about advanced techniques with prompts on Midjourney AI."},
@@ -76,6 +74,7 @@ examples and actionable insights."}, {"role": "assistant", "content": "Sure! Her
   {"role": "user", "content": "Sounds interesting! Can you provide more examples to support the benefits?"},
   {"role": "assistant", "content": "Certainly! Here are some specific examples of how prompts can be used effectively: [examples]"}
 ]
+
 ```
 
 By utilizing contextual prompts, you can maintain the continuity of the conversation and generate more coherent and relevant text.

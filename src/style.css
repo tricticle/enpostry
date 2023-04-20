@@ -6,8 +6,8 @@
 
 :root{
  --delay:0.5s ease;
- --purple:#c2a4ff;
- --text-color:#000000;
+ --purple:#000000;
+ --text-color:#9ed7ff;
  --anicolor:#ffffff;
  padding-top: 50px;
 }
@@ -289,13 +289,22 @@ body::-webkit-scrollbar{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .card-2 img {
     max-width: 100%;
     border-radius: 5px;
+}
+code{
+    display: flex;
+    overflow: auto;
+    max-width: 100%;
+    background-color: var(--purple);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 7px;
 }
 
 
