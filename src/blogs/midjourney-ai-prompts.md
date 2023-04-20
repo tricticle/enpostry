@@ -66,14 +66,7 @@ Another advanced technique is to use iterative prompt engineering, which involve
 
 examples and actionable insights."}, {"role": "assistant", "content": "Sure! Here's a more detailed version of the blog post, based on the outline: \[detailed content]"}, {"role": "user", "content": "I like the content, but can you make it more engaging and add some storytelling elements?"}, {"role": "assistant", "content": "Certainly! Here's a revised version with storytelling elements: \[revised content]"} ]
 
-````
-By iteratively refining and expanding the prompts based on the model's responses, you can tailor the generated text to meet your specific requirements.
-
-## Utilizing Contextual Prompts
-
-Contextual prompts allow you to build on the context of the ongoing conversation to generate more relevant and coherent text. You can refer back to previous messages in the conversation and use them as context in your prompts. For example:
-
-```json
+```
 [
   {"role": "system", "content": "You are ChatGPT, a creative writing assistant."},
   {"role": "user", "content": "Write a blog post about advanced techniques with prompts on Midjourney AI."},
@@ -83,7 +76,7 @@ Contextual prompts allow you to build on the context of the ongoing conversation
   {"role": "user", "content": "Sounds interesting! Can you provide more examples to support the benefits?"},
   {"role": "assistant", "content": "Certainly! Here are some specific examples of how prompts can be used effectively: [examples]"}
 ]
-````
+```
 
 By utilizing contextual prompts, you can maintain the continuity of the conversation and generate more coherent and relevant text.
 
