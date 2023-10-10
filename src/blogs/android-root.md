@@ -1,5 +1,5 @@
 ---
-title: ankit
+title: root
 description: easy steps to root your android phone
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFT6f2F5KrdHNy5YZ6ai6Upugb_RwNnL6F2Q&usqp=CAU
 username: tricticle
